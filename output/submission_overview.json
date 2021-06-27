@@ -1,0 +1,58 @@
+{
+    "Submission 1": {
+        "model": "resnest200",
+        "specs_file": "clef2021_resnest200_ce_05-11-2021_13-24.json",
+        "val_preds": "val_preds_1.pt",
+        "test_preds": "test_preds_1.pt",
+        "test_metrics": {
+            "accuracy": 0.9066,
+            "f1_score": 0.772,
+            "country_f1_score": 0.839
+        }
+    },
+    "Submission 2": {
+        "model": "resnest200",
+        "specs_file": "clef2021_resnest200_ce_05-15-2021_08-42.json",
+        "val_preds": "val_preds_2.pt",
+        "test_preds": "test_preds_2.pt",
+        "test_metrics": {
+            "accuracy": 0.8955,
+            "f1_score": 0.779,
+            "country_f1_score": 0.819
+        }
+    },
+    "Submission 3": {
+        "model": "resnet101",
+        "specs_file": "clef2021_resnet101_ce_04-24-2021_14-07.json",
+        "val_preds": "val_preds_3.pt",
+        "test_preds": "test_preds_3.pt",
+        "test_metrics": {
+            "accuracy": 0.9077,
+            "f1_score": 0.795,
+            "country_f1_score": 0.837
+        }
+    },
+    "Submission 4": {
+        "model": "resnext101",
+        "specs_file": "clef2021_resnext101_ce_04-29-2021_07-36.json",
+        "mini_ds": true,
+        "val_preds": "val_preds_4.pt",
+        "test_preds": "test_preds_4.pt",
+        "test_metrics": {
+            "accuracy": 0.7763,
+            "f1_score": 0.796,
+            "country_f1_score": 0.839
+        }
+    },
+    "Submission 5": {
+        "model": "voting",
+        "note": "voting of models from Submission 1-4, using argmax predictions",
+        "val_preds": "val_preds_5.pt",
+        "test_preds": "test_preds_5.pt",
+        "test_metrics": {
+            "accuracy": 0.9168,
+            "f1_score": 0.830,
+            "country_f1_score": 0.860
+        }
+    }
+}

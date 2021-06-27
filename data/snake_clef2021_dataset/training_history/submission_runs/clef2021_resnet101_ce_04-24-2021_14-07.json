@@ -1,0 +1,1 @@
+{"model_file": "clef2021_resnet101_ce_04-24-2021_14-07.pth", "history_file": "clef2021_resnet101_ce_04-24-2021_14-07.csv", "no_epochs": 30, "model": "resnet101", "loss": "ce", "opt": "adam", "input_size": 360, "batch_size": 128, "full_ds": true, "aug": false, "scheduler": true, "learning_rate": 0.01, "model_mean": [0.485, 0.456, 0.406], "model_std": [0.229, 0.224, 0.225]}

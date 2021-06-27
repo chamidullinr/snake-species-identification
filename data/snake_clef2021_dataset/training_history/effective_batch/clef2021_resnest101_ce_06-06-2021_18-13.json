@@ -1,0 +1,1 @@
+{"model_file": "clef2021_resnest101_ce_06-06-2021_18-13.pth", "history_file": "clef2021_resnest101_ce_06-06-2021_18-13.csv", "no_epochs": 30, "model": "resnest101", "loss": "ce", "opt": "adam", "input_size": 256, "batch_size": 128, "full_ds": false, "aug": false, "scheduler": true, "mixed_precision": false, "total_batch_size": 512, "learning_rate": 0.001}
